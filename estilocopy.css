@@ -1,0 +1,61 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+  
+.ccc{
+
+display: flex;
+justify-content: center;
+
+flex-wrap: wrap;
+}
+
+.ccci{
+
+
+font-size: 50px;
+
+
+margin: 20px;
+background-color: aqua;
+border: 1px solid black;
+}
+
+
+
+@media (max-width: 261px)   {
+
+    .ccc{
+
+        max-height: 100px;
+        overflow: hidden;
+
+        }
+
+
+
+}

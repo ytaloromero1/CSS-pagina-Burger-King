@@ -1,0 +1,698 @@
+
+
+html {
+    scroll-behavior: smooth;
+  } 
+  
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.header-principal {
+
+
+ background-color:#f5ebdc;
+
+
+
+line-height: 1px;
+text-align: center;
+
+
+top: 0;
+margin-top: 1px;
+
+border-top: 8px solid #ee7700;
+
+position: sticky;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+#logo-secundario2{
+        object-fit: cover;
+        width: 75%;
+        height: 75%;
+    
+}
+
+
+#logo-secundario{
+   
+    object-fit: cover;
+    width: 85%;
+    height: 85%;
+
+}
+
+
+
+
+
+
+#logo{
+        object-fit: cover;
+            width: 105%;
+            height: 105%;
+        
+        
+}
+
+
+
+
+
+.primera-linea-flex{
+    
+
+    display: flex;
+justify-content: center;
+
+
+}
+
+.input {
+padding-top: 30px;
+
+}
+
+.input input{
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.input input::placeholder{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
+   color: #000000;
+}
+
+.pregunta{
+
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    padding-top: 25px;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.primera-linea-item{
+    width: auto;
+    height: 90px;
+ 
+
+    margin: 10px;
+    margin-right: 25px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.segunda-linea-flex{
+
+    display: none
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tercera-linea-flex{
+
+    display: flex;
+
+
+
+
+
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+
+}
+
+.tercera-linea-item{
+
+    padding-top: 10px;
+
+margin: 10px;
+
+
+
+}
+
+
+
+
+.tercera-linea-item a{
+     text-decoration: none;
+   
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Roboto Slab', serif;
+     color: #000000;
+     
+    
+}
+
+
+@media (max-width: 913px)   {
+
+    .tercera-linea-flex{
+
+        max-height: 2.5em; /* Ajusta este valor según tus necesidades */
+  overflow: hidden;
+   
+        }
+
+        .tercera-linea-item img{
+        
+           display: none;
+            
+           
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenido{
+
+background-color: #f5ebdc;
+padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenido-slider-flex{
+
+border: 1px solid rgba(0, 0, 0, 0);
+
+
+background-color: rgba(0, 255, 255, 0);
+
+
+
+display: flex;
+justify-content:  center;
+
+
+}
+
+
+.contenido-slider-flex-item{
+
+    width: auto;
+    
+
+
+height: auto;
+background-color: rgba(173, 148, 196, 0);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subtitulos-categorias-uno{
+
+    border:3px solid rgba(137, 43, 226, 0);
+    padding: auto;
+
+}
+
+
+
+
+
+
+
+
+.subtitulos-categorias-uno .subtitulo-flex{
+
+ display: flex;
+border: 1px solid rgba(0, 0, 0, 0);
+
+background-color: rgba(0, 255, 255, 0);
+
+margin-top: 60px;
+max-width: 300px;
+margin-left: 14vw;
+
+}
+
+
+.subtitulo-flex-item{
+font-size: 20px;
+    font-weight:900;
+    font-family: 'Roboto Slab', serif;
+    color:#ee7700;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenido-producto-flex{
+
+
+
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+border: #00000000 solid  2px;
+max-width: 1200px;
+margin: auto;
+}
+
+.contenido-producto-flex-item{
+
+background-color: #fefbf2;
+margin: 10px;
+
+min-width: 205px;
+height: 330px;
+
+
+border: 1px solid rgba(0, 0, 0, 0.144);
+text-align: center;
+
+border-radius: 15px;
+
+-webkit-box-shadow: 0px 0px 15px -2px rgba(122,121,122,1);
+-moz-box-shadow: 0px 0px 15px -2px rgba(122,121,122,1);
+box-shadow: 0px 0px 15px -2px rgba(122,121,122,1);
+}
+
+.contenido-producto-flex-item img{
+
+
+    border: #00000000 solid 1px;
+    margin: 2px;
+ object-fit: cover;
+    }
+
+
+
+
+
+
+
+
+
+
+.contenido-producto-flex-item h3{
+text-align: center;
+
+    max-width: 200px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+margin-bottom: 20px;
+
+ 
+
+    }
+
+.contenido-producto-flex-item h4{
+text-align: center;
+
+border: 1px  solid #c4371e;
+border-radius: 20px;
+width: 140px;
+
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+color: #c4371e;
+
+padding: 5px;
+margin: auto;
+
+
+
+
+
+
+ }
+ .contenido-producto-flex-item h4:hover{
+    background-color: #c4371e;
+
+    color:#f5ebdc;
+    
+    
+    
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 976px)   {
+    .pregunta{
+
+      display: none;
+
+    }
+
+    .segunda-linea-flex{
+
+        display: block;
+    background-color: #f3ad3d;
+    padding: 10px;
+    font-size: 20px;
+    
+    
+    
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
+  }
+
+
+  @media   (max-width: 653px) {
+
+
+    .logocompra{
+
+        display: none;
+  
+      }
+      .primera-linea-item{
+  
+        margin: 1px;
+    
+    
+    }
+
+    #logo-secundario{
+   
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    
+    }
+
+
+
+
+
+  }
+
+
+
+  @media   (max-width: 373px) {
+    .segunda-linea-flex{
+
+
+    font-size: 15px;
+
+    
+    
+
+    
+    }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
